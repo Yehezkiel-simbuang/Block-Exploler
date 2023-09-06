@@ -7,7 +7,7 @@ import { TxBlock } from './components/TxBlock';
 
 const settings = {
   // process.env.REACT_APP_ALCHEMY_API_KEY,
-  apiKey: "6598Puh4ZtcCPjiIlClSuDLKhtG-v_Q8",
+  apiKey: process.env.REACT_APP_ALCHEMY_API_KEY,
   network: Network.ETH_MAINNET,
 };
 
